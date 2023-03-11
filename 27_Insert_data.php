@@ -20,9 +20,10 @@ if (!$conn) {
     echo "Connected successfully!<br>";
 }
 
+
 // Variables to be inserted into the table
-$roll = "6";
-$name = "pinky";
+$roll = "7";
+$name = "pnky";
 
 // SQL query to be executed 
 $sql = "INSERT INTO `table1` (`roll`, `name`) VALUES ('$roll', '$name')";
